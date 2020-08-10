@@ -15,10 +15,10 @@ app.use(morgan("dev"));
 app.use(express.json());
 app.use(cors({ origin: true }));
 
-app.use(usersRouter);
-app.use(boardsRouter);
-app.use(pinsRouter);
-app.use(homeRouter);
+app.use("/users", usersRouter);
+app.use("/boards", boardsRouter);
+app.use("/pins", pinsRouter);
+app.use("/", homeRouter);
 
 
 // Catch unhandled requests and forward to error handler.
