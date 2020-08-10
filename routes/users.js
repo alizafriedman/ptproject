@@ -79,7 +79,7 @@ router.get(
     const boards = await Board.findAll({
       where: { userId: req.user.id },
     });
-        console.log(boards);
+        // console.log(boards);
 
     res.json({ boards });
   })
