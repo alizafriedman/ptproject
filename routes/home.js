@@ -14,7 +14,7 @@ router.get(
             limit: 25,
             where: { boardId: null }
         });
-        console.log(pins)
+        // console.log(pins)
         res.json({ pins });
     })
 );
