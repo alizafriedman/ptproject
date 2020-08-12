@@ -1,4 +1,4 @@
-##front end:
+## front end:
 
 home = /
 - displays pins
@@ -17,7 +17,7 @@ boards = /profile/:boardId
 (signup = /signup)
 
 
-##backend:
+## backend:
 
 boards:
 
@@ -49,7 +49,7 @@ post: /users
 
 
 
-##pins:
+## pins:
 
 post, delete, get: /:pinid
 
@@ -60,7 +60,7 @@ patch: /:boardid/:pinid
 adds a pin to a specific board
 
 
-##homepage:
+## homepage:
 
 get: '/'
 
